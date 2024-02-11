@@ -1,3 +1,22 @@
+
+Author: Christian Cooper
+Course: CSC533 SP2024
+Date: Feb 10 2024
+
+// Executing Program
+- Run `make main`
+- Run `./main`
+
+// Included Files 
+LinAlg.cpp - A linear algebra library I made for this.
+LinAlg.hpp - The header file for said library.
+Makefile - the makefile used to compile everything sanely.
+main.cpp - The main code used to generate a window and perform transformations.
+readme.md - This readme!
+thisIsFine.jpg - The jpg form of the picture to load.
+thisIsFine.ppm - the ppm form of the picture to load.
+
+
 (NOTE) 
 For some reason, cairomm often stores (on linux) cairomm.h within /usr/include/cairomm-1.0/cairomm/ rather
 than in the directory /usr/include/cairomm-1.0/, which pkg-config expects. When running pkg-config, it will
